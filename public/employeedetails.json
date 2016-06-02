@@ -1,0 +1,45 @@
+[
+{
+  "Name":"Jayanth",
+   "ID" :"326725",
+  "Role":"Project Manager",
+  "Band":"B1",
+  "Manager":{
+    "Name":"karthikeyan",
+    "ID":"326187",
+    "Manager":{
+      "Name":"Jayanth",
+      "ID":"5678909"
+    },
+    "Alternative_manager":[ {"ID":"12345"}]
+  },
+  "Project":{
+      "Project_name":"Travel & Expense",
+      "count":"10",
+      "project_TeamID":[
+      "326123",
+      "",
+      ""
+      ]
+  }
+},
+{
+  "Name":"swati",
+   "ID" :"326186",
+  "Role":"Project Manager",
+  "Band":"B1",
+  "Manager":{
+    "Name":"karthikeyan",
+    "ID":"326187",
+    "Manager":"James",
+    "Alternative_manager":[ {"ID":"12345"}]
+  },
+  "Project":{
+      "Project_name":"Travel & Expense",
+      "count":"10",
+      "project_Team":{
+        "ID":"326123"
+      }
+  }
+}
+]
