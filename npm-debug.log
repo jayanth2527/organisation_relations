@@ -1,35 +1,33 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'C:\\nodejs\\node.exe',
-1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'start' ]
-2 info using npm@3.6.0
-3 info using node@v5.7.0
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle organisation_relations@0.0.0~prestart: organisation_relations@0.0.0
 6 silly lifecycle organisation_relations@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle organisation_relations@0.0.0~start: organisation_relations@0.0.0
 8 verbose lifecycle organisation_relations@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle organisation_relations@0.0.0~start: PATH: C:\nodejs\node_modules\npm\bin\node-gyp-bin;C:\StackRoute-Vagrant-Node5-Mongo3.2\organisation_relations\node_modules\.bin;C:\Users\lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lenovo\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\HashiCorp\Vagrant\bin;C:\Roopesh\nvm;C:\Program Files\nodejs;C:\nodejs;C:\Users\lenovo\AppData\Local\.meteor;C:\Roopesh\nvm;C:\Program Files\nodejs;C:\Users\lenovo\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Local\atom\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
-10 verbose lifecycle organisation_relations@0.0.0~start: CWD: C:\StackRoute-Vagrant-Node5-Mongo3.2\organisation_relations
-11 silly lifecycle organisation_relations@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+9 verbose lifecycle organisation_relations@0.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/vagrant/organisation_relations/node_modules/.bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+10 verbose lifecycle organisation_relations@0.0.0~start: CWD: /vagrant/organisation_relations
+11 silly lifecycle organisation_relations@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle organisation_relations@0.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle organisation_relations@0.0.0~start: Failed to exec start script
 14 verbose stack Error: organisation_relations@0.0.0 start: `node ./bin/www`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (C:\nodejs\node_modules\npm\lib\utils\lifecycle.js:232:16)
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at EventEmitter.emit (events.js:185:7)
-14 verbose stack     at ChildProcess.<anonymous> (C:\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at ChildProcess.emit (events.js:185:7)
-14 verbose stack     at maybeClose (internal/child_process.js:827:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid organisation_relations@0.0.0
-16 verbose cwd C:\StackRoute-Vagrant-Node5-Mongo3.2\organisation_relations
-17 error Windows_NT 6.1.7601
-18 error argv "C:\\nodejs\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
-19 error node v5.7.0
-20 error npm  v3.6.0
+16 verbose cwd /vagrant/organisation_relations
+17 error Linux 4.2.0-22-generic
+18 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+19 error node v5.8.0
+20 error npm  v3.7.3
 21 error code ELIFECYCLE
 22 error organisation_relations@0.0.0 start: `node ./bin/www`
 22 error Exit status 1
